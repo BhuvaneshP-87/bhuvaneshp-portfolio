@@ -2,27 +2,20 @@
   "name": "bhuvanesh-portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "A single-page React portfolio showcasing MERN stack, Java Spring Boot, and Microservices expertise.",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "lucide-react": "^0.381.0"
+    "lucide-react": "^0.395.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4"
+    "typescript": "^5.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -35,5 +28,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "microservices",
+    "aws",
+    "spring-boot"
+  ],
+  "author": "Bhuvanesh Perumal Samy"
 }
