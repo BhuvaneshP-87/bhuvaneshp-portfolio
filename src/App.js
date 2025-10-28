@@ -432,8 +432,9 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-neutral-900 text-neutral-200 font-sans antialiased" style={{'--secondary-color': secondaryColor}}>
-      {/* Tailwind CSS Script for font and dynamic styling injection */}
-      <script src="https://cdn.tailwindcss.com"></script>
+      {/* NOTE: Removed Tailwind CDN script and dynamic config script block 
+        as this environment handles Tailwind automatically for React components.
+      */}
       <style>
         {`
           html {
@@ -465,37 +466,6 @@ const App = () => {
           .to-secondary-500 { --tw-gradient-to: var(--secondary-color) !important; }
         `}
       </style>
-      <script>
-        {`
-          // Dynamically configure Tailwind colors
-          tailwind.config = {
-            theme: {
-              extend: {
-                colors: {
-                  'primary': {
-                    400: '#8b5cf6', // Violet, static
-                    500: '#6366f1',
-                  },
-                  'secondary': {
-                    500: '${secondaryColor}', // Dynamic secondary color
-                  },
-                  'neutral': {
-                    // ... existing neutral colors
-                    200: '#e5e7eb',
-                    300: '#d1d5db',
-                    400: '#9ca3af',
-                    500: '#6b7280',
-                    600: '#4b5563',
-                    700: '#374151',
-                    800: '#1f2937',
-                    900: '#111827',
-                  }
-                },
-              }
-            }
-          }
-        `}
-      </script>
 
       {/* Color Theme Picker Button */}
       <button
