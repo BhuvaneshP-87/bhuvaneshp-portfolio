@@ -47,14 +47,7 @@ export const siteConfig = {
       title: "Research Assistant",
       dateRange: "Jan 2026 - Present",
       bullets: [
-        "Architected scalable Java-based microservices(distributed system) with file processing capabilities, handling up to 1M records with comprehensive error handling, failure email notifications, and reducing manual processing time from 10 hours to 5 mins.",
-      "Engineered PDF generation systems for 5 enterprise clients using Python Lambda, reducing server processing time from 45s to 13s per document and cutting storage and processing costs cloud infrastructure by $12K annually.",
-      "Reengineered data ingestion and transformation workflows on Hadoop ecosystems using Pig, Hive, and MapReduce - enabling seamless integration of large-scale satellite and geospatial insights into analytics and decision-making platforms.",
-      "Innovated a Scala-based microservice leveraging Apache Spark to ingest and process enterprise client data through a pipeline.",
-      "Drove development efficiency and elevated code quality by integrating GenAI-powered tools such as SonarQube, CodeRabbit.AI, ensuring maintainable, well-structured, and high-performing code aligned with industry best practices and design patterns.",
-      "Optimized database migration scripts using SQL and Python to process 50M+ records, reducing execution time from 16 hrs to 10 mins by advanced indexing and query optimization strategies, lowering database load and infrastructure costs.",
-      "Built responsive satellite mapping components for dashboard using react, optimizing rendering performance from 12s to 3.6s through lazy loading, tile caching, and memory management while handling 10K+ concurrent map tiles.",
-      "Devised and documented test automation frameworks and CI/CD pipelines with 150+ test cases, slashing manual QA effort from 2 hours to 10 minutes per release cycle and accelerating deployment reliability."
+        "Designed a retrieval-augmented, agentic ML pipeline to process legal documents, leveraging embedding-based retrieval and deep learning for verdict-flow analysis and quantitative modeling, executed via distributed batch processing on HPC clusters.",
       ],
     },
     {
