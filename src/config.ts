@@ -12,6 +12,13 @@ export const siteConfig = {
     "I am an incoming Master's candidate in Computer Science at USC, specializing in architecting scalable, distributed systems for high-volume environments. My core expertise is in deep performance tuning, transforming operational efficiency by mastering low-latency data architecture and ensuring sub-second responsiveness across critical platforms. I pioneer intelligent systems integration, moving beyond traditional code by harnessing cutting-edge machine learning innovation to enhance product features and developer workflows. My technical proficiency is backed by a commitment to engineering process excellence, implementing automated, high-velocity deployment pipelines to guarantee quality and speed at scale. I am committed to leveraging this technical depth to build the core infrastructure that powers global products. Explore how my architectural insights can drive your next billion-user solution.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
+        {
+      name: "Cost-Aware Small–Large Model Routing for Unsupervised Anomaly Detection",
+      description:
+        "• Built a cost-aware, uncertainty-driven anomaly detection framework combining spatiotemporal autoencoders, time-series modeling  and small–large model routing to optimize detection accuracy under latency and inference budget constraints.",
+      link: "https://iaeme.com/Home/article_id/IJARCSE_01_02_001",
+      skills: ["Machine Learning", "Deep Learning", "Python", "Tensorflow", "Numpy", "Pandas", "PyTorch", "Forecasting"],
+    },
     {
       name: "Song Recommendation System to Improve Mental State",
       description:
@@ -36,9 +43,24 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "USC Marshall School of Business",
+      title: "Research Assistant",
+      dateRange: "Jan 2026 - Present",
+      bullets: [
+        "Architected scalable Java-based microservices(distributed system) with file processing capabilities, handling up to 1M records with comprehensive error handling, failure email notifications, and reducing manual processing time from 10 hours to 5 mins.",
+      "Engineered PDF generation systems for 5 enterprise clients using Python Lambda, reducing server processing time from 45s to 13s per document and cutting storage and processing costs cloud infrastructure by $12K annually.",
+      "Reengineered data ingestion and transformation workflows on Hadoop ecosystems using Pig, Hive, and MapReduce - enabling seamless integration of large-scale satellite and geospatial insights into analytics and decision-making platforms.",
+      "Innovated a Scala-based microservice leveraging Apache Spark to ingest and process enterprise client data through a pipeline.",
+      "Drove development efficiency and elevated code quality by integrating GenAI-powered tools such as SonarQube, CodeRabbit.AI, ensuring maintainable, well-structured, and high-performing code aligned with industry best practices and design patterns.",
+      "Optimized database migration scripts using SQL and Python to process 50M+ records, reducing execution time from 16 hrs to 10 mins by advanced indexing and query optimization strategies, lowering database load and infrastructure costs.",
+      "Built responsive satellite mapping components for dashboard using react, optimizing rendering performance from 12s to 3.6s through lazy loading, tile caching, and memory management while handling 10K+ concurrent map tiles.",
+      "Devised and documented test automation frameworks and CI/CD pipelines with 150+ test cases, slashing manual QA effort from 2 hours to 10 minutes per release cycle and accelerating deployment reliability."
+      ],
+    },
+    {
       company: "Aidash Inc - IVMS Team(AI Based Startup) ",
       title: "Software Development Engineer I ",
-      dateRange: "Jul 2023 - Jul 2024",
+      dateRange: "Jul 2024 - Aug 2025",
       bullets: [
         "Architected scalable Java-based microservices(distributed system) with file processing capabilities, handling up to 1M records with comprehensive error handling, failure email notifications, and reducing manual processing time from 10 hours to 5 mins.",
       "Engineered PDF generation systems for 5 enterprise clients using Python Lambda, reducing server processing time from 45s to 13s per document and cutting storage and processing costs cloud infrastructure by $12K annually.",
@@ -53,7 +75,7 @@ export const siteConfig = {
     {
       company: "Juspay Technologies Pvt Ltd - UPI Team(Fintech) ",
       title: "Software Development Engineer",
-      dateRange: "Feb 2023 - Jul 2023",
+      dateRange: "Mar 2022 - Jul 2024",
       bullets: [
         "Architected merchant onboarding automation system on bank’s dashboard, reducing processing time from 10 days to under 5 minutes through streamlined workflows and improving customer acquisition efficiency.",
         "With problem-solving approach, developed an agile,semantic agnostic search component that utilizes React and SQL with table partitioning, enabling real-time filtering across 10B+ records and data analytics/statistics with sub-second latency.",
@@ -63,16 +85,6 @@ export const siteConfig = {
         "For Bank’s dashboard, spearheaded an automated reconciliation/settlement pipeline processing payments for 500+ merchants, reducing manual finance operations by 90% and ensuring accurate daily payouts through scheduled batch processing."
       ],
     },
-    // {
-    //   company: "Digital Agency",
-    //   title: "Frontend Developer",
-    //   dateRange: "Aug 2018 - May 2020",
-    //   bullets: [
-    //     "Developed responsive web applications for 20+ clients",
-    //     "Improved site performance scores by 35% on average",
-    //     "Introduced modern JavaScript frameworks to legacy codebases",
-    //   ],
-    // },
   ],
   education: [
     {
