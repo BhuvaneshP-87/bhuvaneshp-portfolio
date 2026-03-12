@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Bhuvanesh Perumal Samy",
-  title: "MSCS at USC | Software Engineer | Backend ML Infra Engineer",
+  title: "MSCS at USC | Software Engineer | AI Backend ML Infra Engineer",
   description:
     "Portfolio website of Bhuvanesh Perumal Samy",
   accentColor: "#1dbcd8ff",
