@@ -1,16 +1,16 @@
 export const siteConfig = {
   name: "Bhuvanesh Perumal Samy",
-  title: "MSCS at USC | Software Engineer | Distributed Systems and Applied AI",
+  title: "MSCS at USC | Software Engineer | Backend ML Infra Engineer",
   description:
-    "Portfolio website of Bhuvanesh Perumal Samy, focused on distributed systems, applied AI, and high-performance engineering.",
+    "Portfolio website of Bhuvanesh Perumal Samy",
   accentColor: "#1dbcd8ff",
   social: {
-    email: "bhuvaneshperumal87@gmail.com",
+    email: "bhuvaneshp87000@gmail.com",
     linkedin: "https://www.linkedin.com/in/bhuvanesh-perumal-samy-3335a8184/",
     github: "https://github.com/BhuvaneshP-87",
   },
   aboutMe:
-    "I am a Master's student in Computer Science at USC with 3+ years of experience building distributed systems, data-intensive platforms, and applied AI workflows. My work spans high-throughput backend services, large-scale search and reconciliation systems, geospatial and anomaly-detection pipelines, and performance-focused product engineering. I enjoy solving systems problems end to end, from architecture and data modeling to ML integration, observability, automation, and cloud deployment.",
+    "I am a software engineer and researcher focused on building scalable backend systems and ML-driven infrastructure. Currently, I work as a Research Assistant at the University of Southern California, where I am developing an LLM-powered agentic RAG pipeline capable of processing over 45,000 legal documents using distributed execution and CUDA acceleration for large-scale analysis. My work spans distributed systems, large-scale data pipelines, and hardware-aware machine learning systems.  \n Previously, I built high-throughput distributed microservices and optimized large-scale data pipelines processing tens of millions of records, improving system performance from hours to minutes. I have also worked on backend systems supporting real-time search across billions of records, gaining strong experience in performance optimization, scalable system design, and production infrastructure. \n I am particularly interested in building ML systems that operate at scale, combining distributed computing, retrieval-based AI systems, and GPU-aware infrastructure to solve complex real-world problems.",
   skills: [
     "Python",
     "Java",
@@ -107,7 +107,7 @@ export const siteConfig = {
       name: "Cost-Aware Small–Large Model Routing for Unsupervised Anomaly Detection",
       description:
         "Built a cost-aware, uncertainty-driven anomaly detection framework combining spatiotemporal autoencoders, time-series modeling, and small-large model routing to optimize detection accuracy under latency and inference budget constraints.",
-      link: "https://iaeme.com/Home/article_id/IJARCSE_01_02_001",
+      // link: "https://iaeme.com/Home/article_id/IJARCSE_01_02_001",
       skills: [
         "Python",
         "TensorFlow",
@@ -123,7 +123,7 @@ export const siteConfig = {
       name: "Song Recommendation System to Improve Mental State",
       description:
         "Engineered an AI-driven mental wellness platform leveraging NLP, reinforcement learning, and speech-based deep learning models for emotion classification and personalized recommendations, achieving 82% text and 80% audio accuracy.",
-      link: "https://iaeme.com/Home/article_id/IJARCSE_01_02_001",
+      link: "https://www.irjmets.com/uploadedfiles/paper/issue_7_july_2022/27915/final/fin_irjmets1657529466.pdf",
       skills: [
         "React",
         "Node.js",
